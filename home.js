@@ -8,11 +8,14 @@ function handleSubmit(evt) {
 	// console.log('form submit');
 	alert("Form submitted successfully!")
 
+	handleSubmit.value = ''
+
 }
 
 form.addEventListener('submit', handleSubmit);
 
-function imgCompUser(evt) {
+
+const imgCompUser = (evt) => {
 	evt.preventDefault();
 
 	alert("That color looks great on you!")

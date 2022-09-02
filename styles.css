@@ -1,15 +1,16 @@
 body {
-  background: rgb(177, 177, 177);
+  background: rgb(143, 143, 143);
   margin: 1rem;
   padding: 1rem;
-  max-width: 500px;
+  width: fit-content;
   margin: 2rem auto;
   font-family: "Open Sans", sans-serif;
   text-align: center;
+  color: white;
 }
 
 nav {
-	border-bottom: 2px solid rgb(41, 41, 41);
+	border-bottom: 2px solid whitesmoke;
 }
 
 #homeBtn {
@@ -26,7 +27,7 @@ a {
 }
 
 a:visited {
-	color: rgb(40, 40, 40);
+	color:white;
 }
 
 img {
@@ -34,12 +35,20 @@ img {
 }
 
 #contact {
-	display: inline-table;
+	display: grid;
+	text-align: center;
 }
 
-button {
-	font-size: 18px;
-	background-color: yellow;
+.submitBtn {
+	width: fit-content;
+	background-color: rgb(214, 214, 45);
+	color: white;
+	border-color: white;
+	margin-left: 230px;
+}
+
+.checkMark {
+	display: inline;
 }
 
 #githubBtn {
@@ -54,11 +63,23 @@ ol {
 	list-style-type: none;
 	}
 
+li {
+	list-style: none;
+}
+
 input {
 	display: block;
 	text-align: center;
 }
 
+.favBtn {
+	width: 20vh;
+	height: 10vh;
+	margin: 20px;
+	background-color: rgb(214, 214, 45);
+	color: white;
+	border-color: white;
+}
 
 #footer {
 	height: 10vh;
