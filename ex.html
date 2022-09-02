@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb">
+          <a href="./home.html">
+            <img id="homeBtn" src="./images/homeBtn.png" />
+          </a>
+        </li>
+        <li class="crumb"><a href="./ex.html">Experience</a></li>
+        <li class="crumb"><a href="./coding.html">Coding</a></li>
+        <li class="crumb"><a href="./network.html">Network</a></li>
+      </ol>
+    </nav>
+
+    <content>
+      <br />
+
+      <img src="./images/profilepic.jpg" />
+      <p>Mark Nakayama</p>
+      <p>Software Engineering Python</p>
+      <!-- skills, interests, and career goals. -->
+      <br />
+      <p>Skills</p>
+      <ul>
+        <li>Curiosity</li>
+        <li>Adaptability</li>
+        <li>Time management</li>
+      </ul>
+      <br />
+      <p>Interests</p>
+      <ul>
+        <li>Food Experiences</li>
+        <li>Landscaping</li>
+        <li>Emotional Intelligence</li>
+      </ul>
+      <br />
+      <p>Career Goals</p>
+      <ul>
+        <li>Get a Job</li>
+        <li>Get a Raise</li>
+        <li>Improve my title</li>
+      </ul>
+      <br />
+      <button id="color">My Favorite Color</button>
+      <button id="place">My Favorite Place</button>
+      <button id="ritual">My Favorite Ritual</button>
+      <h2>Contact Me</h2>
+      <form id="contact">
+        Your name:
+        <input type="text" />
+        <br />
+
+        Message:
+        <input type="textarea" />
+        <br />
+
+        <label for="ref">How did you hear about me?</label>
+        <br />
+        <select name="ref" id="ref">
+          <option value="google">Google</option>
+          <option value="aFriend">A friend</option>
+          <option value="other">Other</option>
+        </select>
+        <br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </content>
+
+    <script src="./profile.js"></script>
+  </body>
+  <footer>
+    <div id="footer"></div>
+  </footer>
+</html>
